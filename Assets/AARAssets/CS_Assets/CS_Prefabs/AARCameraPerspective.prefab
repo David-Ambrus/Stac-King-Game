@@ -1,0 +1,198 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 20: {fileID: 2000000}
+  - 92: {fileID: 9200000}
+  - 124: {fileID: 12400000}
+  - 81: {fileID: 8100000}
+  - 114: {fileID: 11400002}
+  m_Layer: 0
+  m_Name: AARCameraPerspective
+  m_TagString: MainCamera
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -9}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!20 &2000000
+Camera:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 1
+  m_BackGroundColor: {r: 0, g: 0, b: 0, a: .0196078438}
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: .300000012
+  far clip plane: 1000
+  field of view: 60
+  orthographic: 0
+  orthographic size: 5
+  m_Depth: -1
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
+  m_HDR: 0
+  m_OcclusionCulling: 1
+  m_StereoConvergence: 10
+  m_StereoSeparation: .0219999999
+  m_StereoMirrorMode: 0
+--- !u!81 &8100000
+AudioListener:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+--- !u!92 &9200000
+Behaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+--- !u!114 &11400002
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c240091e25f0c594ea07264cc3e56e81, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cameraObject: {fileID: 0}
+  orthographicCamera: 0
+  livePreview: 1
+  backgroundObject: {fileID: 0}
+  topUI:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  bottomUI:
+  - {fileID: 0}
+  - {fileID: 0}
+  customAspects:
+  - name: 353a34
+    aspect: {x: 5, y: 4}
+    cameraSizeChange: -2.88000011
+    backgroundScaleChange: {x: 0, y: .600000024, z: 0}
+    offsetUI: 1.70000005
+  - name: 343a33
+    aspect: {x: 4, y: 3}
+    cameraSizeChange: -2.24000001
+    backgroundScaleChange: {x: 0, y: .5, z: 0}
+    offsetUI: 1.29999995
+  - name: 333a32
+    aspect: {x: 3, y: 2}
+    cameraSizeChange: -.699999988
+    backgroundScaleChange: {x: 0, y: .150000006, z: 0}
+    offsetUI: .5
+  - name: 31363a3130
+    aspect: {x: 16, y: 10}
+    cameraSizeChange: 0
+    backgroundScaleChange: {x: 0, y: 0, z: 0}
+    offsetUI: 0
+  - name: 31363a39
+    aspect: {x: 16, y: 9}
+    cameraSizeChange: 1
+    backgroundScaleChange: {x: 0, y: -.200000003, z: 0}
+    offsetUI: -.5
+  - name: 343a35
+    aspect: {x: 4, y: 5}
+    cameraSizeChange: -8.5
+    backgroundScaleChange: {x: .100000001, y: 2.5, z: 0}
+    offsetUI: 5
+  - name: 333a34
+    aspect: {x: 3, y: 4}
+    cameraSizeChange: -10
+    backgroundScaleChange: {x: -1, y: 2.29999995, z: 0}
+    offsetUI: 5.75
+  - name: 323a33
+    aspect: {x: 2, y: 3}
+    cameraSizeChange: -12
+    backgroundScaleChange: {x: -1.20000005, y: 2.79999995, z: 0}
+    offsetUI: 7
+  - name: 393a3136
+    aspect: {x: 9, y: 16}
+    cameraSizeChange: -16
+    backgroundScaleChange: {x: -1.39999998, y: 3.5999999, z: 0}
+    offsetUI: 0
+  - name: 353a33
+    aspect: {x: 5, y: 3}
+    cameraSizeChange: .200000003
+    backgroundScaleChange: {x: 0, y: 0, z: 0}
+    offsetUI: 0
+  - name: 333a35
+    aspect: {x: 3, y: 5}
+    cameraSizeChange: -15
+    backgroundScaleChange: {x: -1.20000005, y: 3.4000001, z: 0}
+    offsetUI: 8.60000038
+  - name: 3132383a3735
+    aspect: {x: 128, y: 75}
+    cameraSizeChange: .5
+    backgroundScaleChange: {x: 0, y: -.100000001, z: 0}
+    offsetUI: -.200000003
+  - name: 37353a313238
+    aspect: {x: 75, y: 128}
+    cameraSizeChange: -15
+    backgroundScaleChange: {x: -1.20000005, y: 3.5, z: 0}
+    offsetUI: 8.5
+  - name: 31303a3136
+    aspect: {x: 10, y: 16}
+    cameraSizeChange: -14
+    backgroundScaleChange: {x: -1.20000005, y: 3.20000005, z: 0}
+    offsetUI: 8
+  - name: 313a31
+    aspect: {x: 1, y: 1}
+    cameraSizeChange: -5
+    backgroundScaleChange: {x: -.800000012, y: 1.20000005, z: 0}
+    offsetUI: 3
+--- !u!124 &12400000
+Behaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
